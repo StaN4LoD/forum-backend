@@ -40,4 +40,35 @@ return [
         ],
     ],
 
+    'google' => [
+        'client_id' => env('GOOGLE_CLIENT_ID'),  // Идентификатор клиента
+        'client_secret' => env('GOOGLE_CLIENT_SECRET'),  // Секретный ключ
+        'redirect' => env('GOOGLE_CALLBACK_URL'),  // Ссылка на перенаправление при удачной авторизации
+    ],
+    'github' => [
+        'client_id' => env('GITHUB_KEY'),  // Идентификатор клиента
+        'client_secret' => env('GITHUB_SECRET'),  // Секретный ключ
+        'redirect' => env('GITHUB_REDIRECT_URI'),  // Ссылка на перенаправление при удачной авторизации
+    ],
+    'facebook' => [
+        'client_id' => env('FACEBOOK_KEY'),  // Идентификатор клиента
+        'client_secret' => env('FACEBOOK_SECRET'),  // Секретный ключ
+        'redirect' => env('FACEBOOK_REDIRECT_URI'),  // Ссылка на перенаправление при удачной авторизации
+    ],
+    'twitter' => [
+        'client_id' => env('TWITTER_KEY'),  // Идентификатор клиента
+        'client_secret' => env('TWITTER_SECRET'),  // Секретный ключ
+        'redirect' => env('TWITTER_REDIRECT_URI'),  // Ссылка на перенаправление при удачной авторизации
+    ],
+    'yandex' => [
+        'client_id' => env('YANDEX_KEY'),  // Идентификатор клиента
+        'client_secret' => env('YANDEX_SECRET'),  // Секретный ключ
+        'redirect' => env('YANDEX_REDIRECT_URI'),  // Ссылка на перенаправление при удачной авторизации
+    ],
+    'vkontakte' => [
+        'client_id' => env('VKONTAKTE_KEY'),  // Идентификатор клиента
+        'client_secret' => env('VKONTAKTE_SECRET'),  // Секретный ключ
+        'redirect' => env('VKONTAKTE_REDIRECT_URI'),  // Ссылка на перенаправление при удачной авторизации
+    ],
+
 ];
