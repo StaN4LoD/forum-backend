@@ -15,7 +15,14 @@
         "fideloper/proxy": "^4.0",
         "laravel/framework": "5.7.*",
         "laravel/tinker": "^1.0",
-        "tymon/jwt-auth": "^1.0.0-rc.3"
+        "tymon/jwt-auth": "^1.0.0-rc.3",
+        "laravel/socialite": "^4.1",
+        "socialiteproviders/facebook": "dev-master",
+        "socialiteproviders/github": "dev-master",
+        "socialiteproviders/google": "^3.0",
+        "socialiteproviders/twitter": "^3.0",
+        "socialiteproviders/vkontakte": "^4.0",
+        "socialiteproviders/yandex": "^3.0"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",
